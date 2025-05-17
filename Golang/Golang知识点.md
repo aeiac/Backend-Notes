@@ -1,10 +1,9 @@
 
 
 <h1 style="text-align: center;font-weight: bold; font-size: 2em;">Golang入门基础</h1>
-
 ------
 
-## 1、Golang的常用个关键字	
+## 1、常用关键字	
 
 - **详情：**Go语言设计非常简洁，只有25个关键字，用于控制程序结构，声明变量，定义函数等，举例常用关键字。
 
@@ -87,4 +86,10 @@
   ```go
   （m := make(map[string]int)）
   ```
+
+## 2、数据类型
+
+- **Bool：**
+
+
 
