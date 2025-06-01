@@ -33,7 +33,7 @@ php artisan make:seeder AdminUserSeeder
 // 运行全部播种机
 php artisan db:seed
 //运行单个播种机
-php artisan db:seed --class=UserSeeder
+php artisan db:seed --class=AdminUsersSeeder
 
 ```
 
