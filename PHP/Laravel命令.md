@@ -21,6 +21,13 @@ php artisan migrate:rollback --step=5
 php artisan migrate:reset
 // 删除所有迁移表，再次重新运行
 php artisan migrate:fresh
+// 指定运行某个迁移文件
+php artisan migrate --path=database/migrations/2025_06_06_161705_create_aj_repay_plan_fulls_table.php
+// 指定回滚某个迁移文件
+php artisan migrate:rollback --path=database/migrations/2025_06_06_161705_create_aj_repay_plan_fulls_table.php
+
+// 重新运行某个迁移文件（先回滚再迁移）
+php artisan migrate:refresh --path=database/migrations/2025_06_06_161705_create_aj_repay_plan_fulls_table.php
 
 
 ```
