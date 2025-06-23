@@ -10,7 +10,7 @@
 
 ```
 // 创建迁移表
-php artisan make:migration create_whitelist_table
+php artisan make:migration create_orders_settle_table
 // 运行迁移
 php artisan migrate
 // 回滚最后1次迁移
